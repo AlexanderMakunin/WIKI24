@@ -1,0 +1,61 @@
+.ajustes {
+    background-color: red;      
+    width: 100%;               
+    height: 75px;             
+    display: flex;             
+    justify-content: flex-end;  
+    align-items: center;        
+    padding: 10px; 
+}
+.imagen {
+    max-width: 100%;           
+    height: auto;  
+    cursor: pointer;
+}
+.linea1, .linea2, .linea3 {
+    height: 10px;
+    margin: 20px 10%;
+}
+
+.linea1 {
+    background-color: orange;
+}
+
+.linea2 {
+    background-color: green;
+}
+
+.linea3 {
+    background-color: blue;
+}
+
+.caja {
+    text-align: center;
+    width: 100%; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+.Valencia, .Llíria, .Lugares, .Mapa {
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Valencia {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Ciutat_de_les_Arts_i_les_Ci%C3%A8ncies%2C_Val%C3%A8ncia%2C_Valencia%2C_Spain_-_panoramio_%283%29.jpg/240px-Ciutat_de_les_Arts_i_les_Ci%C3%A8ncies%2C_Val%C3%A8ncia%2C_Valencia%2C_Spain_-_panoramio_%283%29.jpg');
+}
+
+.Llíria {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Esgl%C3%A9sia_de_l%27Assumpci%C3%B3_%28Ll%C3%ADria%29.JPG/220px-Esgl%C3%A9sia_de_l%27Assumpci%C3%B3_%28Ll%C3%ADria%29.JPG');
+}
+
+.Lugares {
+    background-image: url('https://filostamp.wordpress.com/wp-content/uploads/2018/04/scan.jpg');
+}
+
+.Mapa {
+    background-image: url('https://s2.ppllstatics.com/laverdad/www/multimedia/202209/05/media/cortadas/mapa-murcia-kQgE-U170116261306200E-1248x770@La%20Verdad.jpg');
+}
