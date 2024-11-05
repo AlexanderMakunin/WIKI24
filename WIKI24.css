@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    padding: 0 15px; /* Añadir un poco de espacio horizontal */
+    padding: 0 15px; 
 }
 
 .ajustes{
@@ -27,7 +27,7 @@ body {
     width: 100%;               
     height: 25px;             
     display: flex; 
-    align-items: center; /* Centra verticalmente el texto */
+    align-items: center; 
 }
 
 .linea1, .linea2, .linea3 {
@@ -55,7 +55,15 @@ body {
     flex-direction: column; 
 }
 
-.Valencia, .Llíria, .Lugares, .Mapa {
+.cajaLugares {
+    text-align: left;
+    width: 100%; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+.Valencia, .Llíria, .Lugares, .Mapa, .Mausoleo, .Arabes, .Iglesia, .Edeta {
     flex: 1;
     background-position: center;
     background-size: cover;
@@ -76,4 +84,20 @@ body {
 
 .Mapa {
     background-image: url('https://s2.ppllstatics.com/laverdad/www/multimedia/202209/05/media/cortadas/mapa-murcia-kQgE-U170116261306200E-1248x770@La%20Verdad.jpg');
+}
+
+.Mausoleo {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/51/RomaCastelSantAngelo.jpg');
+}
+
+.Arabes {
+    background-image: url('https://www.fundacionaquae.org/wp-content/uploads/2016/03/ba%C3%B1os-arabes-girona.jpg');
+}
+
+.Iglesia {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Catedral_del_Buen_Pastor_%289225828442%29.jpg/1200px-Catedral_del_Buen_Pastor_%289225828442%29.jpg');
+}
+
+.Edeta {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Edeta._Reconstrucci%C3%B3n.JPG/300px-Edeta._Reconstrucci%C3%B3n.JPG');
 }
