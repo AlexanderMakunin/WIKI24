@@ -1,17 +1,35 @@
-.ajustes {
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.opciones {
     background-color: red;      
     width: 100%;               
     height: 75px;             
-    display: flex;             
-    justify-content: flex-end;  
-    align-items: center;        
-    padding: 10px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 15px; /* Añadir un poco de espacio horizontal */
 }
-.imagen {
-    max-width: 100%;           
-    height: auto;  
+
+.ajustes{
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.back{
     cursor: pointer;
 }
+
+.busqueda {
+    background-color: blue;      
+    width: 100%;               
+    height: 25px;             
+    display: flex; 
+    align-items: center; /* Centra verticalmente el texto */
+}
+
 .linea1, .linea2, .linea3 {
     height: 10px;
     margin: 20px 10%;
