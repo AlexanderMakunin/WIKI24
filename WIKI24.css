@@ -3,6 +3,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
+iframe {
+    margin: auto;
+    width: 50%;
+    height: 100%;
+}
+
 .opciones {
     background-color: red;      
     width: 100%;               
@@ -10,7 +16,15 @@ body {
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    padding: 0 15px; 
+    padding: 0px; 
+}
+
+.cajaDescripcion {
+    text-align: center;
+    width: 100%; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
 }
 
 .ajustes{
@@ -30,6 +44,10 @@ body {
     align-items: center; 
 }
 
+.muchotexto {
+    color: white;
+}
+
 .linea1, .linea2, .linea3 {
     height: 10px;
     margin: 20px 10%;
@@ -45,6 +63,60 @@ body {
 
 .linea3 {
     background-color: blue;
+}
+
+.linea5 {
+    background-color: blue;
+    height: 10px;
+}
+
+.Utilidades {
+    flex: 1;
+    display: flex;
+    width: 100%;
+    justify-content: space-around; /* Espacio uniforme entre los iconos */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.icono {
+    width: 25%; /* Cada icono ocupa el 25% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 90px; /* Limita la altura máxima a 90px */
+    object-fit: contain; /* Asegura que la imagen se ajuste dentro del área sin deformarse */
+}
+
+.libro {
+    background-color: yellow;
+}
+
+.imagen {
+    background-color: green;
+}
+
+.play {
+    background-color: blue;
+}
+
+.mas {
+    background-color: purple;
+}
+
+.Historia {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+    background-color: darkcyan;
+    display: flex;
+}
+
+.play2 {
+    width: 20%;
+    height: 50%;
+    margin: auto;
+    
 }
 
 .caja {
